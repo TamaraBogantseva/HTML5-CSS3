@@ -1,0 +1,75 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-image: url(img/header-bg.png);
+    display: flex;
+    justify-content: space-between;
+    min-height: 323px;
+}
+
+.header--img {
+    margin-top: 50px;
+    margin-right: 50px;
+    width: 469px;
+    height: 214px;
+}
+
+.header--heading {
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
+    color: #ffffff;
+    font-family: "Arial MT";
+    font-size: 60px;
+    font-weight: 400;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.header--list {
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
+    color: #ffffff;
+    font-family: "Arial MT";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 36px;
+    list-style-image: url(img/check_icon.png);
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.about {
+    display: flex;
+    padding: 50px;
+
+}
+
+.sections--heading {
+    color: #445161;
+    font-family: "Arial MT";
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+.about--text {
+    color: #333333;
+    font-family: "Arial MT";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    max-width: 649px
+}
+
+.first {
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+.about--img {
+    height: 245px;
+    width: 430px;
+    margin-left: 100px;
+}
