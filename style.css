@@ -43,6 +43,7 @@ header {
 .about {
     display: flex;
     padding: 50px;
+    justify-content: space-between;
 
 }
 
@@ -71,5 +72,4 @@ header {
 .about--img {
     height: 245px;
     width: 430px;
-    margin-left: 100px;
 }
