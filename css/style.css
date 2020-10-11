@@ -13,11 +13,10 @@
     display: flex;
     justify-content: space-between;
     min-height: 323px;
+    padding: 50px 50px 0 50px
 }
 
 .header__img {
-    margin-top: 50px;
-    margin-right: 50px;
     width: 469px;
     height: 214px;
 }
@@ -26,7 +25,7 @@
     text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
     color: #ffffff;;
     font-size: 60px;
-    margin: 50px 0 50px 50px;
+    margin-bottom: 50px;
 }
 
 .header-text__list {
@@ -35,7 +34,7 @@
     font-size: 20px;
     line-height: 36px;
     list-style-image: url(../img/check_icon.png);
-    margin: 0 0 50px 86px;
+    margin-left: 36px;
 }
 
 .about {
@@ -49,6 +48,7 @@
     color: #445161;
     font-size: 30px;
     line-height: 36px;
+    margin-bottom: 30px;
 }
 
 .about-content__text {
@@ -60,7 +60,6 @@
 
 .about-content__text_first {
     margin-bottom: 20px;
-    margin-top: 30px;
 }
 
 .about__img {
@@ -167,6 +166,7 @@
 
   .rewiews {
     padding: 50px;
+    margin-bottom: 50px;
     background-color: #f5f5f5;
   }
 
@@ -200,7 +200,6 @@
     font-family: "Arial-ItalicMT";
     color: #333333;
     max-height: 121px;
-    width: 483px;
     background-color: #ebebeb;
     position: relative;
     margin: 0 32px 24px 16px;
@@ -239,7 +238,7 @@
     line-height: 36px;
     color: #445161;
     text-align: center;
-    margin: 50px 0 29px 0;
+    margin: 0 0 29px 0;
   }
 
   .buy-order {
