@@ -4,7 +4,7 @@
 }
 
 .container {
-    font-family: "ArialMT";
+    font-family: "Arial";
     font-weight: 400;
 }
 
@@ -58,7 +58,7 @@
     max-width: 649px
 }
 
-.first {
+.about--text__first {
     margin-bottom: 20px;
     margin-top: 30px;
 }
@@ -97,14 +97,14 @@
     margin: 0 0 40px 0;
 }
 
-.dignity-list-text {
+.dignity--list--text {
     margin: 0;
     padding: 0 0 0 46px;
     position: relative;
     min-width: 526px;;
 }
 
-.dignity-list-text::before {
+.dignity--list--text::before {
     content: "+";
     display: block;
     width: 32px;
