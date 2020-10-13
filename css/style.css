@@ -49,6 +49,7 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  background-color: #ffffff;
 }
 
 .about__img {
@@ -130,6 +131,7 @@
 
 .screenshots {
   padding: 50px 0;
+  background-color: #ffffff;
 }
 
 .screenshots__heading {
@@ -256,6 +258,10 @@
       -ms-flex-align: end;
           align-items: flex-end;
   margin-bottom: 50px;
+}
+
+.buy {
+  background-color: #ffffff;
 }
 
 .buy__heading {
