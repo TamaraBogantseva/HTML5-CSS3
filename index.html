@@ -20,7 +20,7 @@
                     <li>Associate the page with the payment system</li>
                 </ul>
             </div>
-            <img class="header__img" src="img/img469x214.png" alt="Product image" height="214">
+            <img class="header__img" src="img/food_img.jpg" alt="Food image" height="214">
         </header>
         <main>
             <section class="about">
@@ -40,7 +40,12 @@
                         debitis
                         dolor.</p>
                 </div>
-                <img class="about__img" src="img/img430x245.png" alt="Product video" height="245">
+                <video class="about__video" controls width="430" height="245" poster="img/vegetables_preview.png">
+                    <source src="video/vegetables.webm" type="video/webm">
+                    <source src="video/vegetables.mp4" type="video/mp4">
+                    <source src="video/vegetables.ogv">
+                    <p>Ваш браузер не поддерживает элемент video.</p>
+                </video>
             </section>
             <section class="dignity">
                 <h2 class="dignity__heading">Dignity and pluses product</h2>
@@ -197,7 +202,7 @@
                             <li>Cum odio, iste quia doloribus autem;</li>
                             <li>Aperiam nulla ea neque.</li>
                         </ol>
-                        <button class="buy-order__button">BUY</button>
+                        <button class="buy-order__button">Buy</button>
                     </div>
                     <div class="buy-order buy-order_premium">
                         <h3 class="buy-order__heading">Premium</h3>
@@ -212,7 +217,7 @@
                             <li>Cum odio, iste quia doloribus autem;</li>
                             <li>Aperiam nulla ea neque.</li>
                         </ol>
-                        <button class="buy-order__button">BUY</button>
+                        <button class="buy-order__button">Buy</button>
                     </div>
                     <div class="buy-order buy-order_luxe">
                         <h3 class="buy-order__heading">Luxe</h3>
@@ -231,12 +236,45 @@
                             <li>Cum odio, iste quia doloribus autem;</li>
                             <li>Aperiam nulla ea neque.</li>
                         </ol>
-                        <button class="buy-order__button">BUY</button>
+                        <button class="buy-order__button">Buy</button>
                     </div>
                 </div>
 
             </section>
         </main>
+        <footer class="footer">
+            <h2 class="footer__heading">Contacts</h2>
+            <div class="footer-info">
+                <form action="#" method="post">
+                    <p class="footer-info__form_items"><input type="text" placeholder="Your name:"></p>
+                    <p class="footer-info__form_items"><input type="email" name="email" placeholder="Your email:"></p>
+                    <p class="footer-info__form_items"><textarea class="footer-info__form_textarea" name="comment"
+                            cols="30" rows="10" placeholder="Your message:"></textarea></p>
+                    <p><button class="footer-info__form_button">Send</button></p>
+                </form>
+                <div class="footer-links">
+                    <div class="footer-links__contacts">
+                        <img class="footer-links__image" src="img/skype_icon.png" alt="Skype icon" height="26">
+                        <a class="footer-links__address"
+                            href="skype:here_your_login_skype?call">here_your_login_skype</a>
+                    </div>
+                    <div class="footer-links__contacts">
+                        <img class="footer-links__image" src="img/icq_icon.png" alt="Icq icon" height="26">
+                        <a class="footer-links__address" href="#">279679659</a>
+                    </div>
+                    <div class="footer-links__contacts">
+                        <img class="footer-links__image" src="img/email_icon.png" alt="Email icon" height="22">
+                        <a class="footer-links__address" href="mailto:name@email.com">psdhtmlcss@mail.ru</a>
+                    </div>
+                    <div>
+                        <img class="footer-links__image" src="img/phone_icon.png" alt="Phone icon" height="23">
+                        <a class="footer-links__address" href="tel:800045685555">80 00 4568 55 55</a>
+                    </div>
+                    <!-- Пока стоит картинка заглушка -->
+                    <img src="img/socialmedia_icon.png" alt="Socialmedia icons" height="56">
+                </div>
+            </div>
+        </footer>
     </div>
 
 </body>
